@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS三角应用</title>
+    <style>
+        .box {
+            position: relative;
+            width: 100px;
+            height: 145px;
+            background-color: blue;
+            margin: 100px auto;
+        }
+
+        .box span {
+            position: absolute;
+            width: 0;
+            height: 0;
+            line-height: 0;
+            font-size: 0;
+            right: 20px;
+            top: -16px;
+            border: 8px solid transparent;
+            border-bottom-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <span></span>
+    </div>
+</body>
+
+</html>
